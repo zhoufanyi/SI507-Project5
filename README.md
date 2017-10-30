@@ -36,7 +36,7 @@ See below for further instructions.
   * [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#auth) **HINT:** This shares a lot in common with the Twitter API! There are certainly client libraries that deal with Tumblr, but you may find it easier to adapt OAuth1 code we've discussed before.
   * [The Eventbrite API](https://www.eventbrite.com/developer/v3/api_overview) This API uses OAuth2, in a similar way to the way we looked at for Spotify.
 
-* You *may* use any client library (like for example [Spotipy](https://github.com/plamere/spotipy) [Tweepy](http://www.tweepy.org/), although Tweepy is especially nice, and also has some flaws...) to get data from an API if you wish (but not data from Facebook, Twitter, or Spotify) -- but be warned that sometimes, figuring out a complex client library that isn't well documented is more challenging than adapting your own code that does not use a library! It all depends on your end goal and your specific situation.
+* You *may* use any client library (like for example [Spotipy](https://github.com/plamere/spotipy) or [Tweepy](http://www.tweepy.org/), although Tweepy is especially nice, and also has some flaws...) to get data from an API if you wish (but not data from Facebook, Twitter, or Spotify) -- but be warned that sometimes, figuring out a complex client library that isn't well documented is more challenging than adapting your own code that does not use a library! It all depends on your end goal and your specific situation.
 
 * Edit `explanation.txt` with a (short) paragraph or set of bulletpoints about the data you are accessing from this API, and what the CSV files you plan to produce will include. It should be something like this:
 
@@ -52,7 +52,7 @@ See below for further instructions.
 
 * Edit `SI507project5_tests.py` with unit tests for the project you plan. Don't change the name of this file. There should be at **least 2 sublclasses of `unittest.TestCase`**, at least **10 total test methods** (consider what you need to test!), at least one use of the **setUp** and **tearDown** test methods (they actually must be relied upon for tests to run properly), and each of the test methods you write must be **good tests** (meaning they are non-trivial: they won't *always pass* -- or *always fail*, they will catch semantic errors -- not just syntax errors).
 
-* You should include a `requirements.txt` file in your repository with the requirements for whatever virtual environment you use for this project. Perhaps it will require very little, perhaps you'll choose to use a complex client library and it will require a lot! **Points here will be allocated based upon whether you have included a reasonable `requirements.txt` file. You should *not* commit your virtual environment itself.**
+* You should include a `requirements.txt` file in your repository with the requirements for whatever virtual environment you use for this project. Perhaps it will require very little, perhaps you'll choose to use a complex client library and it will require a lot! **Points here will be allocated based upon whether you have included a reasonable `requirements.txt` file. You should *not* commit your virtual environment itself.** HINT: It will probably be useful to commit a `.gitignore` file in order to avoid committing all the files that are part of your virtual environment!
 
 * Edit `SI507project5_code.py` as follows:
 
