@@ -29,7 +29,7 @@ See below for further instructions.
 
 * You should end up with at least 2 different CSV files containing data (HINT: think about your projects 2 and 3 when you consider how you want to store data in CSV files! WHat you had to do in those projects may provide inspiration).
 
-* However, this is just one small project, and we're scoping this relatively small. You should think about what *specifically* is interesting to you -- that consideration and decision is part of the assignment! It's not generally easy to decide on how to use an API, or sort through its documentation, and it requires practice.
+* However, this is just one small project, and we're scoping this relatively small. You should think about what *specifically* could be interesting to you (or interesting enough to examine it for this project; we understand that one of these 2 APIs may not offer *exactly* what you most want to investigate). That consideration and decision is part of the assignment! It's not generally easy to decide on how to use an API, or sort through its documentation, and it requires practice.
 
 * First: Choose one of these APIs from which you want to get data.
 
