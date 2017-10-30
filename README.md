@@ -34,7 +34,7 @@ See below for further instructions.
 * First: Choose one of these APIs from which you want to get data.
 
   * [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#auth) **HINT:** This shares a lot in common with the Twitter API! There are certainly client libraries that deal with Tumblr, but you may find it easier to adapt OAuth1 code we've discussed before.
-  * [The Eventbrite API](https://www.eventbrite.com/developer/v3/api_overview) This API uses OAuth2, in a similar way to the way we looked at for Spotify.
+  * [The Eventbrite API](https://www.eventbrite.com/developer/v3/)  -- [Here](https://www.eventbrite.com/developer/v3/api_overview/authentication/) is the page about authentication, since there are a lot of links on that initial page. You'll probably want to look at that page AND select a reasonable `GET` endpoint from the options listed.
 
 * You *may* use any client library (like for example [Spotipy](https://github.com/plamere/spotipy) or [Tweepy](http://www.tweepy.org/), although Tweepy is especially nice, and also has some flaws...) to get data from an API if you wish (but not data from Facebook, Twitter, or Spotify) -- but be warned that sometimes, figuring out a complex client library that isn't well documented is more challenging than adapting your own code that does not use a library! It all depends on your end goal and your specific situation.
 
