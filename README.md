@@ -50,7 +50,9 @@ See below for further instructions.
     - If necessary, URL describing the authentication process for the API: <URL HERE>
 ```
 
-* Edit `SI507project5_tests.py` with unit tests for the project you plan. Don't change the name of this file. There should be at **least 2 sublclasses of `unittest.TestCase`**, at least **10 total test methods** (consider what you need to test!), at least one use of the **setUp** and **tearDown** test methods (they actually must be relied upon for tests to run properly), and each of the test methods you write must be **good tests** (meaning they are non-trivial: they won't *always pass* -- or *always fail*, they will catch semantic errors -- not just syntax errors).
+* Edit `SI507project5_tests.py` with unit tests for the project you plan. Don't change the name of this file. There should be at **least 2 sublclasses of `unittest.TestCase`**, at least **10 total test methods** (consider what you need to test!), at least one use of the **`setUp`** and **`tearDown`** test methods (they actually must be relied upon for tests to run properly -- for example, opening a file to test! See previous project tests and unittest lecture links for a few examples).
+
+    * Each of the test methods you write must be **good tests** (meaning they are non-trivial: they won't *always pass* -- or *always fail*, they will catch semantic errors -- not just syntax errors).
 
 * You should include a `requirements.txt` file in your repository with the requirements for whatever virtual environment you use for this project. Perhaps it will require very little, perhaps you'll choose to use a complex client library and it will require a lot! **Points here will be allocated based upon whether you have included a reasonable `requirements.txt` file. You should *not* commit your virtual environment itself.** HINT: It will probably be useful to commit a `.gitignore` file in order to avoid committing all the files that are part of your virtual environment!
 
