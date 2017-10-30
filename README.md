@@ -38,7 +38,7 @@ See below for further instructions.
 
 * You *may* use any client library (like for example [Spotipy](https://github.com/plamere/spotipy) or [Tweepy](http://www.tweepy.org/), although Tweepy is especially nice, and also has some flaws...) to get data from an API if you wish (but not data from Facebook, Twitter, or Spotify) -- but be warned that sometimes, figuring out a complex client library that isn't well documented is more challenging than adapting your own code that does not use a library! It all depends on your end goal and your specific situation.
 
-* Edit `explanation.txt` with a (short) paragraph or set of bulletpoints about the data you are accessing from this API, and what the CSV files you plan to produce will include. It should be something like this:
+* Edit `explanation.txt` with a (short) paragraph or set of bulletpoints about the data you are accessing from this API, and what the CSV files you plan to produce will include. It should be something like this (of course, not for the Twitter API -- for either the Tumblr API or the Eventbrite API):
 
 ```
     I am accessing the Twitter search API and gathering:
