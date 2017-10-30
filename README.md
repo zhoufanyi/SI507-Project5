@@ -40,6 +40,7 @@ See below for further instructions.
 
 * Edit `explanation.txt` with a (short) paragraph or set of bulletpoints about the data you are accessing from this API, and what the CSV files you plan to produce will include. It should be something like this:
 
+```
     I am accessing the Twitter search API and gathering:
     - 50 Tweets for each of 2 users I'm going to search for
     - For each tweet, I'll be accessing the tweet text, the number of hashtags, the time posted, and the user who posted the tweet
@@ -47,7 +48,7 @@ See below for further instructions.
     - Data in each CSV file: 4 columns -- text, number hashtags, time posted, user who posted the tweet
     - URL for the API: <URL HERE>
     - If necessary, URL describing the authentication process for the API: <URL HERE>
-
+```
 
 * Edit `SI507project5_tests.py` with unit tests for the project you plan. Don't change the name of this file. There should be at **least 2 sublclasses of `unittest.TestCase`**, at least **10 total test methods** (consider what you need to test!), at least one use of the **setUp** and **tearDown** test methods (they actually must be relied upon for tests to run properly), and each of the test methods you write must be **good tests** (meaning they are non-trivial: they won't *always pass* -- or *always fail*, they will catch semantic errors -- not just syntax errors).
 
