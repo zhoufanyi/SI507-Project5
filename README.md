@@ -45,7 +45,7 @@ See below for further instructions.
 
   **NOTE:** If you find this material confusing AND exciting (:)), you may want to stick to understanding the code presented in class, and adapting it for Tumblr. If you find this material exciting but not super confusing, because you have previous experience or really love this kind of thing, and want to push yourself even further, adapting one of the OAuth2 examples that do not have any caching system implemented already may be a fun exercise to try.
 
-* **Step 2:** Edit `explanation.txt` with a (short) paragraph or set of bulletpoints about the data you are accessing from this API, and what the CSV files you plan to produce will include. It should be something like this (of course, not for the Twitter API -- for either the Tumblr API or the Eventbrite API):
+* **Step 2 (200 points):** Edit `explanation.txt` with a (short) paragraph or set of bulletpoints about the data you are accessing from this API, and what the CSV files you plan to produce will include. It should be something like this (of course, not for the Twitter API -- for either the Tumblr API or the Eventbrite API):
 
 ```
     I am accessing the Twitter search API and gathering:
@@ -61,13 +61,13 @@ See below for further instructions.
 **Checkpoint #2:** A completed `explanation.txt`
 
 
-* **Step 3:** Edit `SI507project5_tests.py` with unit tests for the project you plan. Don't change the name of this file. There should be at **least 1 subclass of `unittest.TestCase`**, at least **5 total test methods** (consider what you most need to test!), at least one use of the **`setUp`** and **`tearDown`** test methods.
+* **Step 3 (200 points):** Edit `SI507project5_tests.py` with unit tests for the project you plan. Don't change the name of this file. There should be at **least 1 subclass of `unittest.TestCase`**, at least **5 total test methods** (consider what you most need to test!), at least one use of the **`setUp`** and **`tearDown`** test methods.
 
     * Each of the test methods you write must be **good tests** (meaning they won't *always pass* -- or *always fail*, they will catch semantic errors -- not just syntax errors).
 
     **Checkpoint #3:** A completed `SI507project5_tests.py`
 
-* **Step 4:** Edit `SI507project5_code.py` as follows:
+* **Step 4 (400 points for code, 100 points for CSV files):** Edit `SI507project5_code.py` as follows:
 
     * Don't change the name of this file, though you may write other files and import them into this one.
 
@@ -93,6 +93,6 @@ See below for further instructions.
       * Tests written in Step 3 should pass
       * A completed `SI507project5_code.py`
 
-* **Step 5:** *Make sure you have a working virtual environment for this project.* You should include a `requirements.txt` file in your repository with the requirements for whatever virtual environment you use for this project. Perhaps it will require very little, perhaps you'll choose to use a complex client library and it will require a lot! **Points here will be allocated based upon whether you have included a reasonable `requirements.txt` file. You should *not* commit your virtual environment itself.** HINT: It will probably be useful to commit a `.gitignore` file in order to avoid committing all the files that are part of your virtual environment!
+* **Step 5 (100 points):** *Make sure you have a working virtual environment for this project.* You should include a `requirements.txt` file in your repository with the requirements for whatever virtual environment you use for this project. Perhaps it will require very little, perhaps you'll choose to use a complex client library and it will require a lot! **Points here will be allocated based upon whether you have included a reasonable `requirements.txt` file. You should *not* commit your virtual environment itself.** HINT: It will probably be useful to commit a `.gitignore` file in order to avoid committing all the files that are part of your virtual environment!
 
   **Checkpoint #5:** A completed `requirements.txt`
