@@ -56,6 +56,7 @@ See below for further instructions.
     - If necessary, URL describing the authentication process for the API: <URL HERE>
 ```
 
+
     **Checkpoint #2:** A completed `explanation.txt`
 
 
@@ -73,13 +74,15 @@ See below for further instructions.
 
     * You may want to consider writing functions that can generalize your code, so it is easy to write more code as you go on.
 
+    * You can borrow heavily from the code you saw in class, the examples on Canvas! But make sure these files you turn in run correctly and access the correct API (Tumblr, or Eventbrite).
+
   * You must get data from this API that does require some method of authentication to access it -- OAuth1 or OAuth2 (some APIs have some endpoints that require OAuth and some that do not). The data must be enough data that your code written in this file, when run, results in CSV files, as follows...
 
   * Your code must create at least 2 `.CSV` files of data with more than one column of data (e.g. one column of numbers 1, 2, 3, 4 ... and one column of names would not count. A spreadsheet provides numbers, you don't need Python for that). You may create more if you wish (e.g. Project 3 created 3 files) but you do not have to.
 
   * Your code should pass all of your unit tests by the time you submit it, for full credit (but it should NOT pass all of your unit tests when there's no code in `SI507project5_code.py` yet, of course).
 
-  * There are no other requirements for your code in this project, but using techniques you practiced in previous projects and section exercises will likely be useful for you here!
+  * There are no other requirements for your code in this project!
 
   **Checkpoint #4:**
       * A caching system for your API
