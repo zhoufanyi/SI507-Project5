@@ -33,7 +33,7 @@ See below for further instructions.
 
 * We've provided steps and checkpoints in these instructions to follow the process of completing the project in an organized way!
 
-* ** Step 1:** Choose one of these APIs from which you want to get data.
+* **Step 1:** Choose one of these APIs from which you want to get data.
 
   * [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#auth) **HINT:** This shares a lot in common with the Twitter API! There are certainly client libraries that deal with Tumblr, but you may find it easier to adapt OAuth1 code we've discussed before.
   * [The Eventbrite API](https://www.eventbrite.com/developer/v3/)  -- [Here](https://www.eventbrite.com/developer/v3/api_overview/authentication/) is the page about authentication, since there are a lot of links on that initial page. You'll probably want to look at that page AND select a reasonable `GET` endpoint from the options listed.
@@ -54,7 +54,7 @@ See below for further instructions.
     - Data in each CSV file: 4 columns -- text, number hashtags, time posted, user who posted the tweet
     - URL for the API: <URL HERE>
     - If necessary, URL describing the authentication process for the API: <URL HERE>
-    ```
+```
 
     **Checkpoint #2:** A completed `explanation.txt`
 
