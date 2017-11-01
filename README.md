@@ -43,7 +43,7 @@ See below for further instructions.
 
   **Checkpoint #1:** You have selected 1 API, and read its documentation. You have looked at code from class and decidd which method of getting data from an OAuth-authenticated API is a good model for the API you are using in Project 5.
 
-  **NOTE:** If you find this material confusing, you may want to stick to understanding the code presented in class, and adapting it for Tumblr. If you find this material exciting and want to push yourself even further, adapting one of the OAuth2 examples that do not have any caching system implemented already may be a fun exercise to try.
+  **NOTE:** If you find this material confusing AND exciting (:)), you may want to stick to understanding the code presented in class, and adapting it for Tumblr. If you find this material exciting but not super confusing, because you have previous experience or really love this kind of thing, and want to push yourself even further, adapting one of the OAuth2 examples that do not have any caching system implemented already may be a fun exercise to try.
 
 * **Step 2:** Edit `explanation.txt` with a (short) paragraph or set of bulletpoints about the data you are accessing from this API, and what the CSV files you plan to produce will include. It should be something like this (of course, not for the Twitter API -- for either the Tumblr API or the Eventbrite API):
 
