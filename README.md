@@ -31,14 +31,20 @@ See below for further instructions.
 
 * However, this is just one small project, and we're scoping this relatively small. You should think about what *specifically* could be interesting to you (or interesting enough to examine it for this project; we understand that one of these 2 APIs may not offer *exactly* what you most want to investigate). That consideration and decision is part of the assignment! It's not generally easy to decide on how to use an API, or sort through its documentation, and it requires practice.
 
-* First: Choose one of these APIs from which you want to get data.
+* We've provided steps and checkpoints in these instructions to follow the process of completing the project in an organized way!
+
+* ** Step 1:** Choose one of these APIs from which you want to get data.
 
   * [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#auth) **HINT:** This shares a lot in common with the Twitter API! There are certainly client libraries that deal with Tumblr, but you may find it easier to adapt OAuth1 code we've discussed before.
   * [The Eventbrite API](https://www.eventbrite.com/developer/v3/)  -- [Here](https://www.eventbrite.com/developer/v3/api_overview/authentication/) is the page about authentication, since there are a lot of links on that initial page. You'll probably want to look at that page AND select a reasonable `GET` endpoint from the options listed.
 
-* You *may* use any client library (like for example [Spotipy](https://github.com/plamere/spotipy) or [Tweepy](http://www.tweepy.org/), although Tweepy is especially nice, and also has some flaws...) to get data from an API if you wish (but not data from Facebook, Twitter, or Spotify) -- but be warned that sometimes, figuring out a complex client library that isn't well documented is more challenging than adapting your own code that does not use a library! It all depends on your end goal and your specific situation.
+  > You *may* use any client library (like for example [Spotipy](https://github.com/plamere/spotipy) or [Tweepy](http://www.tweepy.org/), although Tweepy is especially nice, and also has some flaws...) to get data from an API if you wish (but not data from Facebook, Twitter, or Spotify) -- but be warned that sometimes, figuring out a complex client library that isn't well documented is more challenging than adapting your own code that does not use a library! It all depends on your end goal and your specific situation.
 
-* Edit `explanation.txt` with a (short) paragraph or set of bulletpoints about the data you are accessing from this API, and what the CSV files you plan to produce will include. It should be something like this (of course, not for the Twitter API -- for either the Tumblr API or the Eventbrite API):
+  **Checkpoint #1:** You have selected 1 API, and read its documentation. You have looked at code from class and decidd which method of getting data from an OAuth-authenticated API is a good model for the API you are using in Project 5.
+
+  **NOTE:** If you find this material confusing, you may want to stick to understanding the code presented in class, and adapting it for Tumblr. If you find this material exciting and want to push yourself even further, adapting one of the OAuth2 examples that do not have any caching system implemented already may be a fun exercise to try.
+
+* **Step 2:** Edit `explanation.txt` with a (short) paragraph or set of bulletpoints about the data you are accessing from this API, and what the CSV files you plan to produce will include. It should be something like this (of course, not for the Twitter API -- for either the Tumblr API or the Eventbrite API):
 
 ```
     I am accessing the Twitter search API and gathering:
@@ -48,15 +54,18 @@ See below for further instructions.
     - Data in each CSV file: 4 columns -- text, number hashtags, time posted, user who posted the tweet
     - URL for the API: <URL HERE>
     - If necessary, URL describing the authentication process for the API: <URL HERE>
-```
+    ```
 
-* Edit `SI507project5_tests.py` with unit tests for the project you plan. Don't change the name of this file. There should be at **least 2 sublclasses of `unittest.TestCase`**, at least **10 total test methods** (consider what you need to test!), at least one use of the **`setUp`** and **`tearDown`** test methods (they actually must be relied upon for tests to run properly -- for example, opening a file to test! See previous project tests and unittest lecture links for a few examples).
+    **Checkpoint #2:** A completed `explanation.txt`
+
+
+* **Step 3:** Edit `SI507project5_tests.py` with unit tests for the project you plan. Don't change the name of this file. There should be at **least 2 subclasses of `unittest.TestCase`**, at least **10 total test methods** (consider what you need to test!), at least one use of the **`setUp`** and **`tearDown`** test methods (they actually must be relied upon for tests to run properly -- for example, opening a file to test!).
 
     * Each of the test methods you write must be **good tests** (meaning they are non-trivial: they won't *always pass* -- or *always fail*, they will catch semantic errors -- not just syntax errors).
 
-* You should include a `requirements.txt` file in your repository with the requirements for whatever virtual environment you use for this project. Perhaps it will require very little, perhaps you'll choose to use a complex client library and it will require a lot! **Points here will be allocated based upon whether you have included a reasonable `requirements.txt` file. You should *not* commit your virtual environment itself.** HINT: It will probably be useful to commit a `.gitignore` file in order to avoid committing all the files that are part of your virtual environment!
+    **Checkpoint #3:** A completed `507project5_tests.py`
 
-* Edit `SI507project5_code.py` as follows:
+* **Step 4:** Edit `SI507project5_code.py` as follows:
 
     * Don't change the name of this file, though you may write other files and import them into this one.
 
@@ -71,3 +80,13 @@ See below for further instructions.
   * Your code should pass all of your unit tests by the time you submit it, for full credit (but it should NOT pass all of your unit tests when there's no code in `SI507project5_code.py` yet, of course).
 
   * There are no other requirements for your code in this project, but using techniques you practiced in previous projects and section exercises will likely be useful for you here!
+
+  **Checkpoint #4:**
+      * A caching system for your API
+      * Use of oAuth1 or oAuth2
+      * 2+ CSV files of relevant data retrieved from the API
+      * Tests written in Step 3 should pass
+
+* **Step 5:** *Make sure you have a working virtual environment for this project.* You should include a `requirements.txt` file in your repository with the requirements for whatever virtual environment you use for this project. Perhaps it will require very little, perhaps you'll choose to use a complex client library and it will require a lot! **Points here will be allocated based upon whether you have included a reasonable `requirements.txt` file. You should *not* commit your virtual environment itself.** HINT: It will probably be useful to commit a `.gitignore` file in order to avoid committing all the files that are part of your virtual environment!
+
+  **Checkpoint #5:** A completed `requirements.txt`
