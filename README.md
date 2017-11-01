@@ -85,6 +85,7 @@ See below for further instructions.
   * There are no other requirements for your code in this project!
 
   **Checkpoint #4:**
+  
       * A caching system for your API
       * Use of oAuth1 or oAuth2
       * 2+ CSV files of relevant data retrieved from the API
