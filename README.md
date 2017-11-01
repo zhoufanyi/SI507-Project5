@@ -57,7 +57,7 @@ See below for further instructions.
 ```
 
 
-    **Checkpoint #2:** A completed `explanation.txt`
+**Checkpoint #2:** A completed `explanation.txt`
 
 
 * **Step 3:** Edit `SI507project5_tests.py` with unit tests for the project you plan. Don't change the name of this file. There should be at **least 2 subclasses of `unittest.TestCase`**, at least **10 total test methods** (consider what you need to test!), at least one use of the **`setUp`** and **`tearDown`** test methods (they actually must be relied upon for tests to run properly -- for example, opening a file to test!).
