@@ -60,11 +60,11 @@ See below for further instructions.
 **Checkpoint #2:** A completed `explanation.txt`
 
 
-* **Step 3:** Edit `SI507project5_tests.py` with unit tests for the project you plan. Don't change the name of this file. There should be at **least 2 subclasses of `unittest.TestCase`**, at least **10 total test methods** (consider what you need to test!), at least one use of the **`setUp`** and **`tearDown`** test methods (they actually must be relied upon for tests to run properly -- for example, opening a file to test!).
+* **Step 3:** Edit `SI507project5_tests.py` with unit tests for the project you plan. Don't change the name of this file. There should be at **least 1 subclass of `unittest.TestCase`**, at least **5 total test methods** (consider what you most need to test!), at least one use of the **`setUp`** and **`tearDown`** test methods.
 
-    * Each of the test methods you write must be **good tests** (meaning they are non-trivial: they won't *always pass* -- or *always fail*, they will catch semantic errors -- not just syntax errors).
+    * Each of the test methods you write must be **good tests** (meaning they won't *always pass* -- or *always fail*, they will catch semantic errors -- not just syntax errors).
 
-    **Checkpoint #3:** A completed `507project5_tests.py`
+    **Checkpoint #3:** A completed `SI507project5_tests.py`
 
 * **Step 4:** Edit `SI507project5_code.py` as follows:
 
@@ -89,6 +89,7 @@ See below for further instructions.
       * Use of oAuth1 or oAuth2
       * 2+ CSV files of relevant data retrieved from the API
       * Tests written in Step 3 should pass
+      * A completed `SI507project5_code.py`
 
 * **Step 5:** *Make sure you have a working virtual environment for this project.* You should include a `requirements.txt` file in your repository with the requirements for whatever virtual environment you use for this project. Perhaps it will require very little, perhaps you'll choose to use a complex client library and it will require a lot! **Points here will be allocated based upon whether you have included a reasonable `requirements.txt` file. You should *not* commit your virtual environment itself.** HINT: It will probably be useful to commit a `.gitignore` file in order to avoid committing all the files that are part of your virtual environment!
 
