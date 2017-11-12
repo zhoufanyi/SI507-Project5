@@ -1,1 +1,7 @@
-Put your Project 5 brief explanation, as directed, here.
+I am accessing the Tumblr API and gathering:
+    - 50 posts for each of 2 users I'm going to search for elriz and NASA
+    - For each post, I'll be accessing post_url, post type, the time post, tags, and note_count.
+    - I'll write 2 CSV files, one for each user's search.
+    - Data in each CSV file: 4 columns --post_url, type, date, tags, and note_count.
+    - URL for the API: https://api.tumblr.com/v2/
+    - If necessary, URL describing the authentication process for the API: <URL HERE>
